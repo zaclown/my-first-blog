@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
+"""
+According to djangogirls: it is a script that helps with management of the site.
+   With it we will be able (amongst other things) to start a web server on our computer
+   without installing anything else.
+"""
 import os
 import sys
 

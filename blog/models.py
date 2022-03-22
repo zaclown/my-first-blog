@@ -2,6 +2,12 @@ from django.db import models
 from django.conf import settings
 from django.utils import timezone
 
+"""
+    from djangogirls:
+    models.Model means that the Post is a Django Model, 
+    so Django knows that it should be saved in the database.
+"""
+
 class Post(models.Model):
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
